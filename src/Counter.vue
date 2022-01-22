@@ -1,7 +1,7 @@
 <template>
   <div class="counter-container">
     <button class="decrease" @click="decrease">Decrease</button>
-    <span>{{ count }}k</span>
+    <span class="counter">{{ count }}k</span>
     <button class="increase" @click="increase">Increase</button>
   </div>
 </template>
